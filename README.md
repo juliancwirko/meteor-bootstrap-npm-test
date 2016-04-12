@@ -1,4 +1,4 @@
-### Meteor + Bootstrap 4 (alpha) from Npm
+### Meteor 1.3.2 + Bootstrap 4 (alpha) from Npm
 
 You can clone this repo and run:
 
