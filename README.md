@@ -47,9 +47,9 @@ in the package.json you need to configure autoprefixer, example:
 
 ### How to import files:
 
-in your main.scss file in the app:
+in your `main.scss` file in the app:
 
-```
+```css
 // import all
 @import '{}/node_modules/bootstrap/scss/bootstrap.scss'
 
@@ -59,9 +59,9 @@ in your main.scss file in the app:
 example: [main.scss file in this repo](https://github.com/juliancwirko/meteor-bootstrap-npm-test/blob/master/client/main.scss)
 
 
-in you main.js file import bootstrap js:
+in your `main.js` file import bootstrap js:
 
-```
+```javascript
 import 'bootstrap';
 
 // or you can import only some of the components from 'node_modules/bootstrap/dist/js/umd'
