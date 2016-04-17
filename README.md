@@ -10,7 +10,7 @@ $ meteor
 or you can configure Meteor + Bootstrap 4 from Npm from the start like that:
 
 ```
-$ meteor create --release 1.3-rc.5 bootstrap-from-npm
+$ meteor create --release 1.3.2.1 bootstrap-from-npm
 $ cd bootstrap-from-npm
 $ npm install
 $ npm install --save 4.0.0-alpha.2

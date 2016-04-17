@@ -3,14 +3,20 @@
 </head>
 
 <body>
-  <h2 class="text-xs-center">Bootstrap 4 with Scss and PostCSS - demo</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-xs-center m-t-3">Bootstrap 4 with Scss and PostCSS - demo</h2>
 
-  {{> hello}}
-  {{> info}}
+        {{> hello}}
+        {{> info}}
+      </div>
+    </div>
+  </div>
 </body>
 
 <template name="hello">
-  <div class="text-xs-center">
+  <div class="text-xs-center m-t-2">
     <button>Click Me</button>
     <p>You've pressed the button {{counter}} times.</p>
   </div>
@@ -18,7 +24,7 @@
 
 <template name="info">
 
-  <div class="text-xs-center">
+  <div class="text-xs-center m-t-2">
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
     <button type="button" class="btn btn-primary">Primary</button>
 
