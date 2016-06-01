@@ -13,7 +13,7 @@ or you can configure Meteor + Bootstrap 4 from Npm from the start like that:
 $ meteor create bootstrap-from-npm
 $ cd bootstrap-from-npm
 $ npm install
-$ npm install --save 4.0.0-alpha.2
+$ npm install --save bootstrap@4.0.0-alpha.2
 $ npm install --save-dev autoprefixer
 $ meteor add fourseven:scss
 $ meteor remove standard-minifier-css
